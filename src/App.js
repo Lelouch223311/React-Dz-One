@@ -10,7 +10,7 @@ function App() {
   let [number, setNumber] = useState(0)
   const clickThis = () =>{
 
-    setNumber(number + Math.floor(Math.random() * 30))
+    setNumber(number = Math.floor(Math.random() * 530))
 
   }
 
